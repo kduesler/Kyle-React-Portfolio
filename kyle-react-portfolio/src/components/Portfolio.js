@@ -2,8 +2,8 @@ import React from "react";
 import data from "../data/data.json";
 const Portfolio = () => {
     // const { title, description, image, altImage, link, github } = data.portfolio;
-  return ( { data.portfolio.map((portfolio, index) => {
-      <div>
+  return ( <>{ data.portfolio.map((portfolio, index) => {
+      return (<div>
         <h2 id="projects">Portfolio</h2>
         <section key="index" class="project" id="project-1">
           <a target="_blank" href={portfolio.link} rel="noreferrer">
@@ -18,9 +18,10 @@ const Portfolio = () => {
             GitHub Repo: {portfolio.github}
           </a>
         </section>
-      </div>
+      </div>)
     
   })}
+  </>
   )
 };
 

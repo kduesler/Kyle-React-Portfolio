@@ -17,12 +17,13 @@
     {
         "title": "Code Quiz",
         "description": "Use this quiz to test your knowledge of JavaScript. You will only have 100 seconds to complete the quiz. If you answer a question incorrectly, ten seconds will be subtracted from your score. Your final score is the time remaining when you finish the quiz. Input your initials once the quiz is over to save your intials and final score in scores list.",
-        "image": "Project-img-1.png",
+        "image": "Project-img-1.jpg",
+        "altImage": "Computer chip",
         "link": "https://kduesler.github.io/Kyle-Code-Quiz/",
         "github": "https://github.com/kduesler/Kyle-Code-Quiz"
     }
   ],
   "contact": {
-    
+
   }
 }
