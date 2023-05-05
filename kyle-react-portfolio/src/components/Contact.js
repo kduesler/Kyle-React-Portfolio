@@ -3,7 +3,11 @@ import React from "react";
 function Contact() {
     return (
         <div>
-            Contact
+           <form>
+            <input type= "text" placeholder="Name"></input>
+            <input type= "text" placeholder="Email"></input>
+            <input type= "text" placeholder="Message"></input>
+           </form>
 
         </div>
     )
