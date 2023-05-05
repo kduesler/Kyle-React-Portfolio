@@ -1,0 +1,26 @@
+{
+  "about": {
+    "role": "Full Stack Developer",
+    "bio": " Kyle is an intelligent and creative individual. He loves to play guitar, swim, and travel in his free time. He is passionate about education and the arts.",
+    "image": "Grumpy-cat.jpg",
+    "altImage": "a grumpy cat"
+  },
+  "portfolio": [
+    {
+      "title": "Seven Wonders",
+      "description": "Explore the new Seven Wonders of 2023 by viewing a virtual walking tour and seeing a list of hotels and restaurants near by each wonder's site.",
+      "image": "Project-img-2.png",
+      "altImage": "French Monastery-Mont Saint Michel",
+      "link": "https://kimberlyjane57.github.io/seven-wonders/index.html",
+      "github": "https://github.com/KimberlyJane57/seven-wonders"
+    },
+    {
+        "title": "Code Quiz",
+        "description": "Use this quiz to test your knowledge of JavaScript. You will only have 100 seconds to complete the quiz. If you answer a question incorrectly, ten seconds will be subtracted from your score. Your final score is the time remaining when you finish the quiz. Input your initials once the quiz is over to save your intials and final score in scores list.",
+        "image": "Project-img-1.png",
+        "link": "https://kduesler.github.io/Kyle-Code-Quiz/",
+        "github": "https://github.com/kduesler/Kyle-Code-Quiz"
+    }
+  ],
+  "contact": {}
+}
