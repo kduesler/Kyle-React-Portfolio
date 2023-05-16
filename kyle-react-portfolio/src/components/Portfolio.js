@@ -14,7 +14,7 @@ const Portfolio = () => {
           </a>
           <h3>{portfolio.title}</h3>
           <p>{portfolio.description}</p>
-          <a target="_blank" href={portfolio.github} rel="noreferrer">
+          <a target="_blank" rel="noreferrer" href={portfolio.github} >
             GitHub Repo: {portfolio.github}
           </a>
         </section>
