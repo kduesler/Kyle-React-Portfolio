@@ -1,0 +1,243 @@
+* {
+  background-color: beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: beige;
+}
+
+h1 {
+  font-size: 500%;
+  background-color: #13293d;
+}
+
+nav {
+  background-color: #13293d;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+  background-color: #13293d;
+  list-style: none;
+}
+nav li {
+  background-color: #13293d;
+}
+
+nav a {
+  font-weight: bold;
+  background-color: #13293d;
+  text-decoration: none;
+  color:beige;
+}
+
+nav a:hover {
+  color: beige;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: beige;
+}
+
+div {
+  display: flex;
+}
+
+.profile {
+  margin: 2px;
+  width: 98%;
+}
+
+aside {
+  display: block;
+  margin: 5px;
+  width: 30%;
+  border: #13293d solid 5px;
+  text-align: center;
+}
+
+aside h2 {
+  color: #13293d;
+  margin: 50px 0 50px 0;
+}
+
+aside ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  color: #13293d;
+  padding: 5px;
+  margin: 2px;
+}
+
+aside ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#teacher,
+#music,
+#travel {
+  width: 85%;
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 2px;
+}
+
+aside ul li label {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+}
+main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 10px;
+  color: #13293d;
+  width: 70%;
+  border: #13293d solid 5px;
+}
+
+main h2 {
+  margin: 2%;
+  font-size: 300%;
+}
+main img {
+  width: 100%;
+}
+
+#project-2,
+#project-3,
+#project-4,
+#project-5 {
+  width: 48%;
+  margin: 3px;
+}
+
+.project {
+  position: relative;
+}
+
+main section h3 {
+  position: absolute;
+  top: 40px;
+  margin-left: 10px;
+}
+
+main section p {
+  position: absolute;
+  top: 70px;
+  margin-left: 10px;
+}
+
+#project-1 h3,
+#project-1 p {
+  background: rgba(240, 236, 236, 0);
+  color: #13293d;
+}
+
+#project-2 h3,
+#project-3 h3,
+#project-4 h3,
+#project-5 h3,
+#project-2 p,
+#project-3 p,
+#project-4 p,
+#project-5 p {
+  background: rgba(17, 13, 58, 0.8);
+  color: beige;
+}
+
+footer h2,
+footer p {
+  background-color: #13293d;
+}
+
+@media screen and (max-width: 994px) {
+  h1 {
+    font-size: 287%;
+  }
+
+  aside h2 {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #13293d;
+    list-style: none;
+    min-width: 0px;
+  }
+
+  nav li {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  #project-1 h3,
+  #project-1 p {
+    background: rgba(17, 13, 58, 0.8);
+    color: beige;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  #project-2,
+  #project-3,
+  #project-4,
+  #project-5 {
+    width: 100%;
+    margin: 3px;
+  }
+
+  aside h2 {
+    font-size: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  nav {
+    font-size: 75%;
+  }
+}
